@@ -15,8 +15,8 @@ env:
     - CODE_COVERAGE_DIR=$SHIPPABLE_REPO_DIR/shippable/codecoverage
     - TESTS_LOC_DIR=$SHIPPABLE_REPO_DIR/tests
     - MOD_LOC=$SHIPPABLE_REPO_DIR/node_modules/.bin/
-    - IMAGE_REPO=sample_node
-    - AWS_ACCOUNT_URL=742038439709.dkr.ecr.us-west-2.amazonaws.com
+    - IMAGE_REPO=ci-push-amazon-ecr
+    - AWS_ACCOUNT_URL=432927095699.dkr.ecr.us-east-1.amazonaws.com
 
 build:
 
