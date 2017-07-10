@@ -45,3 +45,5 @@ integrations:
   hub:
     - integrationName: ecr-integration
       type: ecr
+      region: us-east-1
+      
