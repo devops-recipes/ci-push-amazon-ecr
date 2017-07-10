@@ -16,7 +16,7 @@ env:
     - TESTS_LOC_DIR=$SHIPPABLE_REPO_DIR/tests
     - MOD_LOC=$SHIPPABLE_REPO_DIR/node_modules/.bin/
     - IMAGE_REPO=ci-push-amazon-ecr
-    - AWS_ACCOUNT_URL=679404489841.dkr.ecr.us-west-2.amazonaws.com/ci-push-amazon-ecr
+    - AWS_ACCOUNT_URL=432927095699.dkr.ecr.us-east-1.amazonaws.com/ci-push-amazon-ecr
 
 build:
 
