@@ -42,7 +42,7 @@ integrations:
   # adding docker hub integration so that credentials are available to CI Job
   # http://docs.shippable.com/ci/push-amazon-ecr/
   hub:
-    - integrationName: ecr-integration
+    - integrationName: dr-ecr
       type: ecr
       region: us-east-1
       
